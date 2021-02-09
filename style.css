@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#content{
+    display: flex;
+}
+#login{
+    background: #4F5BEF;
+    text-align: center;
+    height: ;
+}
+#login .logo-login img{
+    width: 100%;
+    max-width: 30%;
+    margin-top:10rem;
+    margin-bottom: 5rem;
+    
+}
+.formulario-display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formulario-display input{
+    color:white;
+    width: 20vw;
+    border-radius: 25px;
+    padding: 1rem;
+    border: solid;
+    background: transparent;
+    margin:.55rem;
+}
+
+
+
+.entrar-login{
+    margin-top:1rem;
+    background-color: #FFFFFF;
+    width: 20vw;
+    margin: 1rem auto;
+    color: #91919B;
+    padding: 1rem;
+    border: transparent;
+    border-radius: 25px;
+    font-size: 1.55rem;
+    text-decoration: none;
+}
+.erro-login{
+    margin-top:13vh;
+    padding: 1rem;
+}
+/* IMAGE */
+#image img{
+    width: 100%;
+    max-width: 80%;
+    background-size: cover;
+}
