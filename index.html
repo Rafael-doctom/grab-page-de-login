@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <!--- basic page needs
+  ================================================== -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Grab - Login</title>
 
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grab - Login</title>
-</head>
+    <!-- Styles
+  ================================================== -->
+    <link rel="stylesheet" href="style.css" />
 
-<body>
+    <!-- mobile specific metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <div id="content">
-    <div id="login">
-      <div class="logo-login">
-        <img src="assets/img/logo-grab.svg" alt="">
+    <!-- imports
+  ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- content -->
+    <div id="content">
+      <div id="login">
+        <div class="logo-login">
+          <img src="assets/img/logo-grab.svg" alt="" />
+        </div>
+        <form action="" class="formulario-display">
+          <label for="">
+            <input type="email" name="" id="" placeholder="@" />
+          </label>
+
+          <label for="">
+            <input type="password" name="" id="" placeholder="🔒" />
+          </label>
+          <a class="entrar-login" href=""> Entrar </a>
+        </form>
+        <div class="erro-login">
+          <p>problemas para entrar?</p>
+          <a href=""> clique aqui! </a>
+        </div>
       </div>
-      <form action="" class="formulario-display">
-        <label for="">
-          <input type="email" name="" id="" placeholder="@">
-        </label>
 
-        <label for="">
-          <input type="password" name="" id="" placeholder="🔒">
-        </label>
-        <a class="entrar-login" href="">
-          Entrar
-        </a>
-      </form>
-      <div class="erro-login">
-        <p>
-          problemas para entrar? 
-        </p>
-        <a href="">
-          clique aqui!
-        </a>
+      <div id="image">
+        <div>
+          <img src="assets/img/undraw_interview_rmcf.svg" alt="" />
+        </div>
       </div>
     </div>
-
-    <div id="image">
-      <div>
-        <img src="assets/img/undraw_interview_rmcf.svg" alt="">
-      </div>
-    </div>
-  </div>
-
-
-</body>
-
+  </body>
 </html>
